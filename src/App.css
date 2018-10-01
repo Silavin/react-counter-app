@@ -1,5 +1,6 @@
 .App {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -10,7 +11,7 @@
   text-align: center;
 }
 
-.center{
+.center {
   text-align: center;
   display: flex;
   align-items: center;
@@ -35,6 +36,14 @@
 
 .App-intro {
   font-size: large;
+}
+
+#title {
+  text-align: center;
+}
+.reset {
+  margin: auto;
+  display: block;
 }
 
 @keyframes App-logo-spin {

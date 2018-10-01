@@ -1,0 +1,53 @@
+.counterContainer {
+  border: 1px solid blue;
+  padding: 6px;
+  min-width: 8em;
+}
+
+.buttoncontainer {
+  width: 100%;
+}
+
+.names {
+  text-align: center;
+  background-color: aqua;
+  color: white;
+  border-radius: 8px;
+}
+.negative {
+  background: red;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.zero {
+  background-color: black;
+  color: white;
+  border-radius: 1em;
+  text-align: center;
+}
+.positive {
+  background-color: blue;
+  border-radius: 1em;
+  color: white;
+  text-align: center;
+}
+button:focus {
+  outline: none !important;
+}
+button.plus {
+  background-color: red;
+  color: white;
+  font-size: 2em;
+  box-sizing: border-box;
+  width: 50%;
+  border: none;
+}
+button.minus {
+  background-color: blue;
+  color: white;
+  font-size: 2em;
+  box-sizing: border-box;
+  width: 50%;
+  border: none;
+}
